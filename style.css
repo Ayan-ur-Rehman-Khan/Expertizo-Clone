@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.max-width {
+    max-width: 1366px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 110px;
+    position: relative;
+    top: 0px;
+    max-width: 1366px;
+    gap: 370px;
+    /* background-color: white; */
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.menu li {
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 2px;
+}
+
+.menu li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #4154f1;
+    color: #4154f1;
+    padding-bottom: 0px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: cover;
+    margin: 0px 100px;
+}
+
+.img{
+    background-image: url('https://www.expertizo.pk/assets/img/hero-bg.png');
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 45px;
+    color: #012970;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Nunito", sans-serif;
+    color: #5A5A5B;
+    font-size: 27px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+#contact {
+    background-color: #4154F1;
+    height: 50px;
+    width: 170px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.us {
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
