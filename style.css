@@ -1,11 +1,13 @@
 * {
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 
 body {
     margin: 0px;
     padding: 0px;
+    background-color: white;
 }
 
 .max-width {
@@ -17,12 +19,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 110px;
-    position: relative;
+    padding: 18px 110px;
+    margin-bottom: 40px;
+    position: fixed;
     top: 0px;
     max-width: 1366px;
     gap: 370px;
-    /* background-color: white; */
+    background-color: white;
 }
 
 .logo {
@@ -33,6 +36,8 @@ body {
     display: flex;
     list-style-type: none;
     gap: 20px;
+    margin-bottom: 0px;
+    height: 25px;
 }
 
 .menu li {
@@ -40,7 +45,9 @@ body {
     font-weight: 700;
     color: #013289;
     font-family: "Nunito", sans-serif;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    height: 25px;
 }
 
 .menu li:hover {
@@ -55,11 +62,12 @@ body {
     justify-content: space-between;
     align-items: center;
     background: cover;
-    margin: 0px 100px;
+    margin: 70px 100px;
 }
 
-.img{
+.img {
     background-image: url('https://www.expertizo.pk/assets/img/hero-bg.png');
+    height: 500px;
 }
 
 h1 {
@@ -93,4 +101,1061 @@ h2 {
     font-family: "Nunito", sans-serif;
     font-weight: bolder;
     margin-bottom: 30px;
+}
+
+.svg1 {
+    position: relative;
+    bottom: 22px;
+    left: 57px;
+    padding-right: 50px;
+    fill: #013289;
+}
+
+.svg2 {
+    position: relative;
+    bottom: 22px;
+    left: 62px;
+    padding-right: 50px;
+    color: #013289;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #013289;
+}
+
+ul li a:hover {
+    color: #4154f1;
+}
+
+.about {
+    display: flex;
+    margin: 100px;
+    background-color: #F6F9FF;
+}
+
+.about h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #012970;
+    padding-left: 40px;
+}
+
+.about p {
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+    padding-left: 40px;
+    color: rgb(105, 99, 99);
+}
+
+.people {
+    height: 400px;
+    width: 600px;
+}
+
+.tech {
+    text-align: center;
+}
+
+.tech h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0;
+    color: #4154f1;
+    text-transform: uppercase;
+}
+
+.tech p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #012970;
+    margin-bottom: 60px;
+}
+
+.program {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.program img {
+    margin-right: 110px;
+}
+
+.slider {
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: auto;
+    gap: 30px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.card {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #2db6fa;
+}
+
+#Layer_1 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #2db6fa;
+    background-color: #dbf3fe;
+    border-radius: 5px;
+}
+
+.card h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.arrow {
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+.card2 {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #f68c09;
+}
+
+#Layer_2 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #f68c09;
+    background-color: #FDE3C4;
+    border-radius: 5px;
+}
+
+.card2 h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card2 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.card3 {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #08da4e;
+}
+
+#Layer_3 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #08da4e;
+    background-color: #CFFDDF;
+    border-radius: 5px;
+}
+
+.card3 h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card3 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.card4 {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #e9222c;
+}
+
+#Layer_4 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #e9222c;
+    background-color: #FEF7F8;
+    border-radius: 5px;
+}
+
+.card4 h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card4 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.card5 {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #b50edf;
+}
+
+#Layer_5 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #b50edf;
+    background-color: #F6F7FA;
+    border-radius: 5px;
+}
+
+.card5 h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card5 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.card5 #more {
+    color: #b50edf;
+}
+
+.card5 .arrow {
+    fill: #b50edf;
+}
+
+.card6 {
+    border: 1px solid transparent;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 360px;
+    border-radius: 10px;
+    width: 350px;
+    padding-top: 70PX;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-bottom: 27px;
+    border-bottom: 3px solid #f51f9c;
+}
+
+#Layer_6 {
+    border: 1px solid transparent;
+    padding: 19px 17px;
+    fill: #f51f9c;
+    background-color: #feecf7;
+    border-radius: 5px;
+}
+
+.card6 h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card6 p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.card6 #more {
+    color: #f51f9c;
+}
+
+
+.card:hover {
+    background-color: #2db6fa;
+}
+
+.card:hover h3 {
+    color: white;
+}
+
+.card:hover p {
+    color: white;
+}
+
+.card:hover #Layer_1 {
+    background-color: white;
+}
+
+.card2:hover {
+    background-color: #f68c09;
+}
+
+.card2:hover h3 {
+    color: white;
+}
+
+.card2:hover p {
+    color: white;
+}
+
+.card2:hover #Layer_2 {
+    background-color: white;
+}
+
+.card3:hover {
+    background-color: #08da4e;
+}
+
+.card3:hover h3 {
+    color: white;
+}
+
+.card3:hover p {
+    color: white;
+}
+
+.card3:hover #Layer_3 {
+    background-color: white;
+}
+
+.card4:hover {
+    background-color: #e9222c;
+}
+
+.card4:hover h3 {
+    color: white;
+}
+
+.card4:hover p {
+    color: white;
+}
+
+.card4:hover #Layer_4 {
+    background-color: white;
+}
+
+.card5:hover {
+    background-color: #b50edf;
+}
+
+.card5:hover h3 {
+    color: white;
+}
+
+.card5:hover p {
+    color: white;
+}
+
+.card5:hover #Layer_5 {
+    background-color: white;
+}
+
+.card6:hover {
+    background-color: #f51f9c;
+}
+
+.card6:hover h3 {
+    color: white;
+}
+
+.card6:hover p {
+    color: white;
+}
+
+.card6:hover #Layer_6 {
+    background-color: white;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+
+.goals {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    margin-right: 100px;
+}
+
+.goal {
+    display: flex;
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    background-color: white;
+    align-items: center;
+    /* margin-right: 20px; */
+    box-shadow: 3px 3px 7px lightgray;
+}
+
+.main-cards {
+
+    border: none;
+    max-height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.main-card {
+    height: 350px;
+    width: 350px;
+    border: 1px solid gainsboro;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.img-zoom {
+    position: absolute;
+    z-index: 10;
+}
+
+.img-zoom:hover {
+    transform: scale(1.1);
+    transition: all 0.8s ease;
+    opacity: 0.1;
+
+}
+
+.card-wording {
+    color: #012970;
+    position: absolute;
+    top: 80px;
+    z-index: 15;
+    left: 130px;
+    font-family: "Nunito", sans-serif;
+    display: none;
+    cursor: pointer;
+}
+
+.main-card:hover .card-wording {
+    display: block;
+
+}
+
+
+.card-paragraph {
+    display: none;
+    color: #012970;
+    padding-bottom: 0px;
+    position: absolute;
+    z-index: 15;
+    top: 140px;
+    left: 14px;
+    font-family: sans-serif;
+}
+
+.main-card:hover .card-paragraph {
+    display: block;
+}
+
+.card-paragraph-line-2 {
+    display: none;
+    color: #012970;
+    padding-bottom: 0px;
+    line-height: 20px;
+    position: absolute;
+    z-index: 15;
+    top: 160px;
+    left: 30px;
+    font-family: sans-serif;
+}
+
+.main-card:hover .card-paragraph-line-2 {
+    display: block;
+}
+
+.plus-svg-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4154F1;
+    position: absolute;
+    top: 190px;
+    left: 128px;
+    z-index: 15;
+    cursor: pointer;
+    display: none;
+}
+
+.main-card:hover .plus-svg-1 {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus-svg-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #4154F1;
+    position: absolute;
+    top: 190px;
+    left: 178px;
+    z-index: 15;
+    cursor: pointer;
+    display: none;
+}
+
+
+.main-card:hover .plus-svg-2 {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-card {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    height: 500px;
+    border: none;
+}
+
+.end-cards1 {
+    max-height: 450px;
+    min-height: min-content;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgb(201, 200, 200);
+    opacity: 0.3;
+}
+
+.end-cards2 {
+    max-height: 450px;
+    min-height: min-content;
+    width: 300px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(232, 232, 232);
+}
+
+
+
+.star-svg {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.end-cards-para-box {
+    border: none;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+
+
+.end-cards-para {
+    font-size: 15px;
+    color: #444444;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.end-card-pro {
+    background-image: url('https://expertizo.pk/assets/img/testimonials/testimonials-5.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.end-card-pro-2 {
+    background-image: url('https://expertizo.pk/assets/img/testimonials/testimonials-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.end-card-pro-3 {
+    background-image: url('https://expertizo.pk/assets/img/testimonials/testimonials-4.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+.name-card {
+    color: #444444;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+
+}
+
+.end-word {
+    font-size: 13px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 200;
+    color: gray;
+}
+
+.last-card {
+    border: none;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.last-cards {
+    border: none;
+    height: 650px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px gainsboro;
+}
+
+.last-cards:hover .last-card-img {
+    transform: scale(0.8);
+    transition: all 0.9s ease;
+}
+
+.last-cards:hover {
+    box-shadow: 1px 1px 10px rgb(209, 208, 208);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.last-cards-main {
+    border: none;
+    height: 650px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px gainsboro;
+}
+
+.internship {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    font-size: 30px;
+
+}
+
+.self {
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+    font-weight: 800;
+    color: white;
+}
+
+.border {
+    background-color: #4154F1;
+    border-radius: 30px;
+    height: 30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.last-card-para {
+    margin-left: 20px;
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+}
+
+.apply-now {
+    font-size: large;
+    font-family: "Nunito", sans-serif;
+    color: #4154F1;
+}
+
+.apply-box {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 40px;
+
+}
+
+.apply-box1 {
+    position: relative;
+    margin-top: 5px;
+    margin-right: 40px;
+
+}
+
+.svg-last {
+    position: absolute;
+    top: 3px;
+    left: 105px;
+}
+
+.business-heading {
+
+    margin-left: 50px;
+    font-family: "Nunito", sans-serif;
+    font-size: larger;
+    color: #012970;
+}
+
+.border-2nd {
+    background-color: #4154F1;
+    color: white;
+    border-radius: 30px;
+    font-size: large;
+    height: 30px;
+    padding: 2px 10px 2px 10px;
+
+}
+
+.contact-step {
+    height: 500px;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.address-box {
+    border: none;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    gap: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.box-contact {
+    height: 220px;
+    width: 250px;
+    border: none;
+    background-color: #FAFBFF;
+}
+
+.location-svg {
+    margin-top: 27px;
+    margin-left: 30px;
+}
+
+.address {
+    font-family: "Nunito", sans-serif;
+    color: #012970;
+    margin: 10px 0px 0px 27px;
+}
+
+.address-para {
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    color: #444444;
+    margin-left: 27px;
+}
+
+.form-box {
+    border: none;
+    height: 480px;
+    width: 50%;
+    background-color: #FAFBFF;
+}
+
+.first-input {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.inputs {
+    height: 40px;
+    width: 210px;
+    border: 1px solid rgb(193, 192, 192);
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs:focus-within {
+    border: 1px solid #4154F1;
+}
+
+.subject-input {
+    border: 1px solid rgb(193, 192, 192);
+    height: 40px;
+    width: 461px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 48px;
+
+}
+
+.subject-input:focus-within {
+    border: 1px solid #4154F1;
+}
+
+.text-area {
+    margin-left: 48px;
+    margin-top: 20px;
+}
+
+textarea {
+    height: 150px;
+    width: 459px;
+    outline: none;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: 1px solid rgb(193, 192, 192);
+}
+
+textarea:focus-within {
+    border: 1px solid #4154F1;
+}
+
+.btn-message {
+    margin-left: 210px;
+    margin-top: 30px;
+    height: 45px;
+    width: 160px;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-message:hover {
+    background-color: #4170F5;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.last-search-bar {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.search-bar {
+    height: 50px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.btn-subscirbe {
+    height: 45px;
+    width: 120px;
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    color: white;
+    background-color: #4154F1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-subscirbe:hover {
+    background-color: #4170F5;
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+
+.map-step {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    height: 400px;
+}
+
+.map-para1 {
+    padding-top: 50px;
+    border: none;
+    width: 35%;
+}
+
+
+.map-para {
+    color: #7a7a7a;
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+}
+
+.fb-hover:hover {
+    fill: #012970;
+    transform: scale(1);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.map-para2 {
+    background-image: url('https://cdn.wallpapersafari.com/89/46/txmrM7.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    width: 65%;
+    display: flex;
+    padding-left: 50px;
+
+}
+
+.map-list {
+    padding-top: 30px;
+    border: none;
+    width: 250px;
+}
+
+.list-heading {
+    font-family: "Nunito", sans-serif;
+    color: #012970;
+}
+
+.greterthen {
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
+.list-para {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+}
+
+.list-para:hover {
+    color: #4154F1;
+    cursor: pointer;
+}
+
+.list-para2 {
+    color: #646464;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.last-header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #bdcefd;
+    background-color: #F6F9FF;
+    height: 100px;
+}
+
+.last-header-para {
+    color: #012970;
+    font-family: "Nunito", sans-serif;
+    line-height: 0px;
+}
+
+.last-word {
+    color: #4154F1;
+    font-family: "Nunito", sans-serif;
+}
+
+.last-word:hover {
+    color: #7595eb;
+    cursor: pointer;
 }
